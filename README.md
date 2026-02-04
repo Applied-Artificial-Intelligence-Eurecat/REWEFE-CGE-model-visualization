@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Interactive visualization interface for CGE-based economic modelling within the InnWater project</strong>
+  <strong>Visualization interface for CGE-based economic modelling within the InnWater project</strong>
 </p>
 
 ---
@@ -16,8 +16,10 @@
 
 ## Overview
 
-This visualization interface reflects the **Computable General Equilibrium (CGE)** component of the InnWater project’s economic tools.  
-It enables users to explore model outputs and interpret the implications of different **policy choices** or **simulation scenarios** through an interactive web-based environment.
+This visualization interface reflects the **Computable General Equilibrium (CGE)** component of the InnWater project’s
+economic tools.  
+It enables users to explore model outputs and interpret the implications of different **policy choices** or **simulation
+scenarios** through an interactive web-based environment.
 
 ---
 
@@ -29,7 +31,8 @@ The InnWater project develops tools to support:
 - **economic and financial modelling**, including tariff simulations
 - **stakeholder engagement and governance assessment frameworks**
 
-The CGE visualization interface serves as an access layer to economic model results, facilitating transparent analysis and decision support.
+The CGE visualization interface serves as an access layer to economic model results, facilitating transparent analysis
+and decision support.
 
 ---
 
@@ -46,7 +49,7 @@ The interface is implemented using the following technologies:
 
   </div>
 
-  <div style="flex: 0 0 38%; min-width: 260px;">
+  <div style="flex: 0 0 38%; min-width: 160px;">
 
 <p align="center">
   <img src=".img/screenshot.png" alt="Application Screenshot" style="max-width:100%; height:auto;"/>
@@ -65,12 +68,19 @@ The interface is implemented using the following technologies:
 1. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
+   ```
+2. To run the application in a containerized environment:
+
+```bash
+streamlit run main.py
+   ```
 
 ### Using Docker
 
 1. Build and run the container using Docker Compose:
-   bash
+   ```bash
    docker-compose up --build
+   ```
 
 ## Contact
 
