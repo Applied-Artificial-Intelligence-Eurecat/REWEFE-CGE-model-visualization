@@ -10,16 +10,14 @@
 
 ---
 
-<table>
-<tr>
-<td width="60%" valign="top">
+<div style="display:flex; gap:24px; align-items:flex-start;">
+
+  <div style="flex: 1 1 60%; min-width: 320px;">
 
 ## Overview
 
-This visualization interface reflects the **Computable General Equilibrium (CGE)** component of the InnWater project’s
-economic tools.  
-It enables users to explore model outputs and interpret the implications of different **policy choices** or **simulation
-scenarios** through an interactive web-based environment.
+This visualization interface reflects the **Computable General Equilibrium (CGE)** component of the InnWater project’s economic tools.  
+It enables users to explore model outputs and interpret the implications of different **policy choices** or **simulation scenarios** through an interactive web-based environment.
 
 ---
 
@@ -31,8 +29,7 @@ The InnWater project develops tools to support:
 - **economic and financial modelling**, including tariff simulations
 - **stakeholder engagement and governance assessment frameworks**
 
-The CGE visualization interface serves as an access layer to economic model results, facilitating transparent analysis
-and decision support.
+The CGE visualization interface serves as an access layer to economic model results, facilitating transparent analysis and decision support.
 
 ---
 
@@ -47,16 +44,17 @@ The interface is implemented using the following technologies:
 - **Docker** – Containerization for reproducible and portable deployment.
 - **HTTPX** – Communication with the AI Assistant API.
 
-</td>
-<td width="40%" valign="top">
+  </div>
+
+  <div style="flex: 0 0 38%; min-width: 260px;">
 
 <p align="center">
-  <img src=".img/screenshot.png" alt="Application Screenshot" width="100%"/>
+  <img src=".img/screenshot.png" alt="Application Screenshot" style="max-width:100%; height:auto;"/>
 </p>
 
-</td>
-</tr>
-</table>
+  </div>
+
+</div>
 
 ---
 
