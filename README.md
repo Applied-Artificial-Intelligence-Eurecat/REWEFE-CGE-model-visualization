@@ -1,4 +1,4 @@
-# InnWater CGE Visualization Interface
+# REWEFE-CGE-model-visualization
 
 <p align="center">
   <img src=".img/innwater-logo.png" alt="InnWater Logo" width="220"/>
@@ -6,6 +6,12 @@
 
 <p align="center">
   <strong>Visualization interface for CGE-based economic modelling within the InnWater project</strong>
+</p>
+
+<p align="center">
+  <a href="https://innwater.eurecatprojects.com/cge" target="_blank">
+    <img src="https://img.shields.io/badge/Access%20Application-Live%20Demo-blue?style=for-the-badge&logo=appveyor" alt="Access CGE Model"/>
+  </a>
 </p>
 
 ---
@@ -30,6 +36,8 @@ The InnWater project develops tools to support:
 - **multi-level, cross-sector governance of water systems**
 - **economic and financial modelling**, including tariff simulations
 - **stakeholder engagement and governance assessment frameworks**
+
+Visit the **[InnWater Governance Platform](https://le.innwater.eu/)** to explore other project tools and the learning environment.
 
 The CGE visualization interface serves as an access layer to economic model results, facilitating transparent analysis
 and decision support.
