@@ -37,7 +37,8 @@ The InnWater project develops tools to support:
 - **economic and financial modelling**, including tariff simulations
 - **stakeholder engagement and governance assessment frameworks**
 
-Visit the **[InnWater Governance Platform](https://le.innwater.eu/)** to explore other project tools and the learning environment.
+Visit the **[InnWater Governance Platform](https://le.innwater.eu/)** to explore other project tools and the learning
+environment.
 
 The CGE visualization interface serves as an access layer to economic model results, facilitating transparent analysis
 and decision support.
@@ -74,9 +75,11 @@ The interface is implemented using the following technologies:
 ### Local Execution
 
 1. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+
+```bash
+pip install -r requirements.txt
+```
+
 2. To run the application in a containerized environment:
 
 ```bash
@@ -93,7 +96,7 @@ streamlit run main.py
 ## Contact
 
 - **CGE Model**: Martin Henseler - martin.henseler@univ-rouen.fr
-- **Visualization and AI Assistant**: Oriol Alàs - oriol.alas@univ-rouen.fr
+- **Visualization and AI Assistant**: Oriol Alàs - oriol.alas@eurecat.org
 
 ---
 
