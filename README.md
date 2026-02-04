@@ -94,3 +94,13 @@ streamlit run main.py
 
 - **CGE Model**: Martin Henseler - martin.henseler@univ-rouen.fr
 - **Visualization and AI Assistant**: Oriol Alàs - oriol.alas@univ-rouen.fr
+
+---
+
+<p align="center">
+  <img src=".img/footer.png" alt="EU and UKRI Funding Logo" width="600"/>
+</p>
+
+<p align="center">
+  This project has received funding from the European Union's Horizon Europe programme (Grant Agreement No. 101086512) and from UK Research and Innovation (UKRI) under the UK government's Horizon Europe funding guarantee (Grant No. 10066637).
+</p>

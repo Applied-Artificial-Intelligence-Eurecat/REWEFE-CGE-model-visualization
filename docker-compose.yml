@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  streamlit-app:
+    build: .
+    container_name: innwater-streamlit
+    env_file:
+      - .env
+    networks:
+      - proxy-network
+      - iot_network
+    volumes:
+      - ./:/app
+
+networks:
+  proxy-network:
+    external: true
+  iot_network:
+    external: true
