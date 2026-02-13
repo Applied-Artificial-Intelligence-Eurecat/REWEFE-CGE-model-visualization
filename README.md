@@ -95,8 +95,8 @@ streamlit run main.py
 
 ## Contact
 
-- **CGE Model**: Olivier Beaumais, Martin Henseler
-- **Visualization and AI Assistant**: Oriol Alàs
+- **CGE Model**: Olivier Beaumais (olivier.beaumais@univ-rouen.fr), Martin Henseler
+- **Visualization and AI Assistant**: Oriol Alàs (oriol.alas@eurecat.org)
 
 ---
 
